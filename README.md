@@ -1,5 +1,7 @@
 # Tic-Tac-Toe
 ### Java AWT
+Tic-Tac-Toe Game built using Java and Swing components that enables two players to play against each other. 
+This project showcases object-oriented programming, user interaction through graphical interfaces, and game logic implementation.
 
 ## Experience the Game
 ```
@@ -7,6 +9,11 @@ git clone https://github.com/sai-satish/Tic-Tac-Toe
 cd Tic-Tac-Toe
 java Game
 ```
+## Features:
+- Interactive Gameplay: Allows two players to alternately place "X" and "O" on a 3x3 grid.
+- Win Detection: Automatically detects if a player has won the game or if the match results in a draw.
+- Reset Button: Enables players to restart the game at any time.
+- UI Feedback: The game provides feedback to players about whose turn it is and announces the winner or if the game ends in a draw.
 
 ## Game.java
 - The Game works on Java AWT Swing components.
@@ -29,3 +36,4 @@ java Game
 
 ## CheckWin Class
 - CheckWin class consists the logic behind declaring the winner of the game.
+- If a player wins, it prevents further interaction with the board.
